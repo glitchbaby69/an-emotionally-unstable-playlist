@@ -16,6 +16,7 @@ const trackYear = document.getElementById("trackYear");
 const showNoteBtn = document.getElementById("showNote");
 const trackNote = document.getElementById("trackNote");
 const trackLyrics = document.getElementById("trackLyrics");
+const trackImage = document.getElementById("trackImage");
 
 const showLyricsBtn =
     document.getElementById("showLyrics");
@@ -44,6 +45,9 @@ nowPlayingTitle.innerText = track.title;
 
 trackArtist.innerText = track.artist;
 trackYear.innerText = track.year;
+
+trackImage.src = track.img || "img/default.jpg";
+
 trackNote.innerText = track.note;
 trackLyrics.innerText = track.lyrics;
 
