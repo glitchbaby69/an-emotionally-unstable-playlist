@@ -29,8 +29,8 @@ body {
 }
 
 .art img {
-  max-width: 100%;
-  max-height: 100%;
+    max-width: 100%;
+    height: auto;
 }
 
 .now {
@@ -44,11 +44,14 @@ body {
 
 .playlist {
   margin-top: 10px;
+  max-height: 200px;
   height: 140px;
   overflow-y: auto;
   background: white;
   border: 1px solid gray;
 }
+
+
 
 .playlist div {
   padding: 5px;
@@ -97,4 +100,38 @@ body {
   font-style: italic;
   font-size: 13px;
   color: #444;
+}
+
+@media (max-width: 768px) {
+
+    .player {
+        width: 95%;
+        margin: 10px auto;
+    }
+
+    .art img {
+        width: 100%;
+        height: auto;
+    }
+
+    .controls button {
+        font-size: 24px;
+        padding: 12px;
+    }
+
+    .playlist {
+        max-height: 250px;
+        overflow-y: auto;
+    }
+
+    .track-title {
+        font-size: 22px;
+    }
+
+    .track-artist,
+    .track-year,
+    .track-note,
+    .lyrics-panel {
+        font-size: 16px;
+    }
 }
