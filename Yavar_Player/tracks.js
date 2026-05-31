@@ -189,7 +189,7 @@ img: "img/03.jpg",
     year: "1994",
     note: "-",
     src:"music/05_Dream_Brother.mp3" ,
-    img: "img/04.png",
+    img: "img/05.png",
 
   },
   
@@ -265,7 +265,7 @@ img: "img/03.jpg",
     year: "1997",
     note: "-",
     src: "music/13_Western_Eyes.mp3",
-    img: "img/13.jpg",
+    img: "img/12.jpg",
 
   },
 
@@ -275,7 +275,7 @@ img: "img/03.jpg",
     year: "1997",
     note: "-",
     src: "music/14_Cowboys.mp3",
-    img: "img/14.jpg",
+    img: "img/12.jpg",
 
   },
 {
@@ -316,7 +316,7 @@ img: "img/03.jpg",
   },
 {
     title:"without You I'm Nothing" ,
-    artist: "Placebo",
+    artist: "Placebo & David Bowie",
     year: "1998",
     note: "-",
     src: "music/19_placebo.mp3",
@@ -356,6 +356,7 @@ img: "img/03.jpg",
     year: "2003",
     note: "-",
     src: "music/23_wolf.mp3",
+    img: "img/23.png",
 
   },
   
