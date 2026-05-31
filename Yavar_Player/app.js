@@ -6,8 +6,44 @@ const tracks = [
     title: "In a Manner of Speaking",
     artist: "Nouvelle Vague",
     year: "2004",
-    lyrics: `
-lyerics nouvelle
+    lyrics: `In a manner of speaking
+I just want to say
+That I could never forget the way
+You told me everything
+By saying nothing
+In a manner of speaking
+I don't understand
+How love in silence becomes reprimand
+But the way that I feel about you
+Is beyond words
+Oh, give me the words
+Give me the words
+That tell me nothing
+Oh, give me the words
+Give me the words
+That tell me everything
+In a manner of speaking
+Semantics won't do
+In this life that we live, we live, we only make do
+The way that we feel
+Might have to be sacrificed
+So in a manner of speaking
+I just want to say
+That just like you I should find a way
+To tell you everything
+By saying nothing
+Oh, give me the words
+Give me the words
+That tell me nothing
+Oh, give me the words
+Give me the words
+That tell me everything
+Oh, give me the words
+Give me the words
+That tell me nothing
+Oh, give me the words
+Give me the words
+That tell me everything
   `,
     note: "it's in the title already",
     src: "music/01_in_a_manner.mp3"
@@ -231,6 +267,19 @@ const showNoteBtn = document.getElementById("showNote");
 const trackNote = document.getElementById("trackNote");
 const trackLyrics = document.getElementById("trackLyrics");
 
+const showLyricsBtn =
+    document.getElementById("showLyrics");
+
+showLyricsBtn.addEventListener("click", () => {
+
+    trackNote.classList.add("hidden");
+
+    trackLyrics.classList.toggle("hidden");
+});
+
+
+
+
 function loadTrack(index) {
 
   current = index;
@@ -250,6 +299,7 @@ trackLyrics.innerText = track.lyrics;
 
   
     trackNote.classList.add("hidden");
+    trackLyrics.classList.add("hidden");
 }
 
 function formatTime(seconds) {
@@ -299,6 +349,7 @@ function pauseTrack() {
 }
 
 showNoteBtn.addEventListener("click", () => {
+    trackLyrics.classList.add("hidden");
     trackNote.classList.toggle("hidden");
 });
 

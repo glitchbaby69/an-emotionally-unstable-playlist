@@ -90,3 +90,11 @@ body {
     display: none;
 }
 
+.lyrics-panel {
+    white-space: pre-wrap;
+    
+  margin-top: 8px;
+  font-style: italic;
+  font-size: 13px;
+  color: #444;
+}
