@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Yavar Player</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+<div class="player">
+
+  <div class="header">🎵 YAVAR PLAYER</div>
+
+  <div class="art">
+    <img src="img/cover.jpg" alt="" />
+  </div>
+<div class="track-info">
+
+  <div id="trackTitle" class="track-title">
+    -
+  </div>
+
+  <div id="trackArtist" class="track-artist">
+    -
+  </div>
+
+  <div id="trackYear" class="track-year">
+    -
+  </div>
+<button id="showNote">
+  Read Note
+</button>
+
+<div id="trackNote" class="track-note hidden">
+
+<div id="trackLyrics" class="hidden lyrics-panel"> lyrivcs
+</div> 
+</div>
+
+
+
+
+</div>
+
+  <div class="now">
+    Now Playing:<span id="nowPlayingTitle"> -</span> 
+  </div>
+
+  <div class="progress">
+    <input type="range" id="seek" value="0" />
+    <div class="time">
+      <span id="currentTime">0:00</span>
+      <span id="duration">0:00</span>
+    </div>
+  </div>
+
+  <div class="controls">
+    <button id="prev">⏮</button>
+    <button id="play">▶</button>
+    <button id="next">⏭</button>
+  </div>
+
+  <div class="playlist" id="playlist"></div>
+
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
