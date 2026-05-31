@@ -56,8 +56,9 @@ That tell me everything
   `,
     note: "it's in the title already",
     src: "music/01_in_a_manner.mp3",
-    img: "img/01.jpg",
+    img: "img/default.jpg",
   },
+
 
    {
   title: "Girl Loves Me",
@@ -110,8 +111,11 @@ Where the fuck did Monday go?
 Where the fuck did Monday go?`,
 
 note: "Because you gave me that Bowie poster",
-src: "music/02_girl_loves_me.mp3"
+src: "music/02_girl_loves_me.mp3",
+img: "img/02.jpg",
 },
+
+
 
   {
     title: "Ode to Mets",
@@ -166,6 +170,7 @@ Into a deafening, painful, shameful roar`,
 
 note: "my personal fav music to cry to lol",
 src: "music/03_ode_to_mets.mp3",
+img: "img/03.jpg",
 
   },
 {
@@ -174,6 +179,7 @@ src: "music/03_ode_to_mets.mp3",
     year: "1966",
     note: "",
     src: "music/04 _I_Can_Never_Go_Home_Anymore.mp3",
+    img: "img/04.png",
 
   },
 
@@ -183,6 +189,7 @@ src: "music/03_ode_to_mets.mp3",
     year: "1994",
     note: "-",
     src:"music/05_Dream_Brother.mp3" ,
+    img: "img/04.png",
 
   },
   
@@ -192,16 +199,17 @@ src: "music/03_ode_to_mets.mp3",
     year: "2015",
     note: "-",
     src: "music/06_My_Least_Favorite_Life.mp3",
+    img: "img/06.jpg",
 
   },
  
   {
     title:"Goodbye" ,
     artist: "Apparat, Soap&Skin",
-     
     year: "2011",
     note: "-",
     src: "music/07_Goodbye.mp3",
+    img: "img/07.jpg",
 
   },
 
@@ -211,7 +219,7 @@ src: "music/03_ode_to_mets.mp3",
     year: "1988",
     note: "-",
     src: "music/08_Mezzanine.mp3",
-
+    img: "img/08.jpg",
   },
 {
     title:"Group Four" ,
@@ -219,6 +227,7 @@ src: "music/03_ode_to_mets.mp3",
     year: "1998",
     note: "-",
     src: "music/09_group_four.mp3",
+    img: "img/08.jpg",
 
   },
 
@@ -228,6 +237,7 @@ src: "music/03_ode_to_mets.mp3",
     year: "2010",
     note: "-",
     src: "music/10_splitting.mp3",
+    img: "img/10.jpg",
 
   },
 {
@@ -236,6 +246,7 @@ src: "music/03_ode_to_mets.mp3",
     year: "1998",
     note: "-",
     src: "music/11_rabbit.mp3",
+    img: "img/11.png",
 
   },
 
@@ -245,6 +256,7 @@ src: "music/03_ode_to_mets.mp3",
     year: "1997",
     note: "",
     src: "music/12_undenied.mp3",
+    img: "img/12.jpg",
 
   },
 {
@@ -253,6 +265,7 @@ src: "music/03_ode_to_mets.mp3",
     year: "1997",
     note: "-",
     src: "music/13_Western_Eyes.mp3",
+    img: "img/13.jpg",
 
   },
 
@@ -262,6 +275,7 @@ src: "music/03_ode_to_mets.mp3",
     year: "1997",
     note: "-",
     src: "music/14_Cowboys.mp3",
+    img: "img/14.jpg",
 
   },
 {
@@ -270,6 +284,7 @@ src: "music/03_ode_to_mets.mp3",
     year: "2002",
     note: "-",
     src: "music/15_my_russia.mp3",
+    img: "img/15.jpg",
 
   },
 {
@@ -278,6 +293,7 @@ src: "music/03_ode_to_mets.mp3",
     year: "1994",
     note: "-",
     src: "music/16_closer.mp3",
+    img: "img/16.jpg",
 
   },
 
@@ -287,6 +303,7 @@ src: "music/03_ode_to_mets.mp3",
     year: "1999",
     note: "-",
     src: "music/17_the_day.mp3",
+    img: "img/17.jpg",
 
   },
 {
@@ -303,6 +320,7 @@ src: "music/03_ode_to_mets.mp3",
     year: "1998",
     note: "-",
     src: "music/19_placebo.mp3",
+    img: "img/19.jpg",
 
   },
 {
@@ -311,6 +329,7 @@ src: "music/03_ode_to_mets.mp3",
     year: "2013",
     note: "-",
     src: "music/20_vampyre.mp3",
+    img: "img/20.jpg",
 
   },
 {
@@ -319,6 +338,7 @@ src: "music/03_ode_to_mets.mp3",
     year: "2009",
     note: "-",
     src: "music/21_Kettering.mp3",
+    img: "img/21.jpg",
 
   },
  {
@@ -327,6 +347,7 @@ src: "music/03_ode_to_mets.mp3",
     year: "2005",
     note: "-",
     src: "music/22_dondante.mp3",
+    img: "img/22.jpg",
 
   },
    {
@@ -344,14 +365,16 @@ src: "music/03_ode_to_mets.mp3",
     year: "2014",
     note: "-",
     src: "music/24_miracles.mp3",
+    img: "img/24.jpg",
 
   },
    {
-    title:"For The Damaged coda" ,
+    title:"For The Damaged Coda" ,
     artist: "Blonde Redhead",
     year: "2000",
     note: "-",
     src: "music/25_coda.mp3",
+    img: "img/25.jpg",
 
   },
 ];
