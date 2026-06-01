@@ -1,7 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300;400;500;600&family=IBM+Plex+Sans:wght@400;500;600&display=swap');
+
+
 :root {
   --accent: #8a6bff;
   --accent-shadow: rgba(255, 255, 255, 0.04);
 }
+
+
 @media (max-width: 768px) {
 
   .player {
@@ -13,10 +18,12 @@
     padding: 14px 16px;
   }
 
-  .track-title {
-    font-size: 22px;
-  }
-
+.track-title {
+  letter-spacing: 0.5px;
+  font-weight: 600;
+  opacity: 0.95;
+  font-size: 22px;
+}
   .track-artist,
   .track-year,
   .track-note,
@@ -51,14 +58,18 @@
 body {
   margin: 0;
   background: #0b0b10;
-  font-family: Tahoma, sans-serif;
-  color: #eaeaea;
+  font-family: "IBM Plex Sans", sans-serif;  color: #eaeaea;
   display: flex;
   justify-content: center;
   align-items: center;
   min-height: 100vh;
 }
 
+.track-note,
+.lyrics-panel {
+  font-family: "IBM Plex Mono", monospace;
+  font-weight: 300;
+}
 .player {
   width: 360px;
   background: #12121a;
@@ -104,6 +115,7 @@ body {
 }
 
 .track-title {
+  font-weight: 600;
   font-size: 18px;
   font-weight: bold;
   color: #ffffff;
@@ -112,6 +124,9 @@ body {
 .track-artist {
   margin-top: 4px;
   color: #bbbbbb;
+  
+  font-weight: 400;
+  opacity: 0.9;
 }
 
 .track-year {
