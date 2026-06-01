@@ -285,9 +285,13 @@ button:hover {
   padding: 20px;
   border-radius: 10px;
   text-align: center;
-  max-width: 280px;
+  max-width: 350px;
   color: #fff;
+  font-weight: 400;
   box-shadow: 0 10px 30px rgba(0,0,0,0.6);
+  font-size: 20px;
+  line-height: 26px;
+  
 }
 
 .modal-content button {
@@ -298,4 +302,8 @@ button:hover {
   color: white;
   cursor: pointer;
   border-radius: 6px;
+}
+
+button:hover {
+  background: #8a6bff;
 }
