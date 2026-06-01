@@ -289,19 +289,21 @@ button:hover {
   color: #fff;
   font-weight: 400;
   box-shadow: 0 10px 30px rgba(0,0,0,0.6);
-  font-size: 20px;
+  font-size: 18px;
   line-height: 26px;
   
 }
 
 .modal-content button {
-  margin-top: 12px;
-  padding: 8px 14px;
+  margin-top: auto;
+  padding: 8px 16px;
   background: #1a1a2b;
   border: 1px solid #2a2a3a;
   color: white;
   cursor: pointer;
   border-radius: 6px;
+  font-weight: 300;
+  font-size: 16px;
 }
 
 button:hover {
