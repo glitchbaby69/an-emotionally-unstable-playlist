@@ -12,7 +12,7 @@
 
 <div class="player">
 
-  <div class="header">🎵 YAVAR PLAYER</div>
+  <div class="header">An Emotionally Unstable Playlist</div>
 
   <div class="art">
     <img id="trackImage" src="img/default.jpg" alt="" />
@@ -30,12 +30,6 @@
   <div id="trackYear" class="track-year">
     -
   </div>
-
-
-  <div class="now">
-    Now Playing:<span id="nowPlayingTitle"> -</span> 
-  </div>
-
   <div class="progress">
     <input type="range" id="seek" value="0" />
     <div class="time">
@@ -68,6 +62,13 @@
 
 </div>
 
+<div id="warningModal" class="modal">
+  <div class="modal-content">
+    <p>this playlist is emotionally unstable
+      proceed with care</p>
+    <button id="closeModal">play anyway</button>
+  </div>
+</div>
 <script src="tracks.js"></script>
 <script src="app.js"></script>
 </body>

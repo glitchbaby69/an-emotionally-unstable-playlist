@@ -1,6 +1,3 @@
-
-
-
 let current = 0;
 const audio = new Audio();
 
@@ -10,7 +7,6 @@ const durationText = document.getElementById("duration");
 const playlist = document.getElementById("playlist");
 const playBtn = document.getElementById("play");
 const trackTitle = document.getElementById("trackTitle");
-const nowPlayingTitle = document.getElementById("nowPlayingTitle");
 const trackArtist = document.getElementById("trackArtist");
 const trackYear = document.getElementById("trackYear");
 const showNoteBtn = document.getElementById("showNote");
@@ -28,7 +24,16 @@ showLyricsBtn.addEventListener("click", () => {
     trackLyrics.classList.toggle("hidden");
 });
 
+const modal = document.getElementById("warningModal");
+const closeModal = document.getElementById("closeModal");
 
+window.addEventListener("load", () => {
+  modal.style.display = "flex";
+});
+
+closeModal.addEventListener("click", () => {
+  modal.style.display = "none";
+});
 
 
 function loadTrack(index) {
@@ -41,8 +46,6 @@ function loadTrack(index) {
 
 
 trackTitle.innerText = track.title;
-nowPlayingTitle.innerText = track.title;
-
 trackArtist.innerText = track.artist;
 trackYear.innerText = track.year;
 
@@ -54,6 +57,12 @@ trackLyrics.innerText = track.lyrics;
   
     trackNote.classList.add("hidden");
     trackLyrics.classList.add("hidden");
+
+document.querySelectorAll(".playlist div").forEach(el => {
+el.classList.remove("active");
+});
+
+playlist.children[index].classList.add("active");
 }
 
 function formatTime(seconds) {
@@ -95,11 +104,13 @@ audio.addEventListener("ended", () => {
 function playTrack() {
   audio.play();
   playBtn.innerText = "⏸";
+playBtn.classList.add("playing");
 }
 
 function pauseTrack() {
   audio.pause();
   playBtn.innerText = "▶";
+playBtn.classList.remove("playing");
 }
 
 showNoteBtn.addEventListener("click", () => {
