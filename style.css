@@ -81,12 +81,12 @@ body {
 
 /* HEADER */
 .header {
-  background: #1a1a2b;
   color: #ffffff;
   padding: 8px;
   font-weight: bold;
   text-align: center;
   border-radius: 6px;
+  font-size: 22px;
 }
 
 .art {
