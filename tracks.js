@@ -739,7 +739,7 @@ I am everything that he is not`
     title:"Closer" ,
     artist: "Nine Inch Nails",
     year: "1994",
-    note: "disturbing, but innocent",
+    note: "disturbing, but innocent.",
     src: "music/16_closer.mp3",
     img: "img/16.png",
     lyrics: `You let me violate you
