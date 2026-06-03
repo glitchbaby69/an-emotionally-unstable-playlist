@@ -956,6 +956,7 @@ When they told me that there was no saving you`
     title:"I'll keep coming" ,
     artist: "Low Roar",
     year: "2014",
+    img:"img/27.jpg",
     note: "my heart almost stopped the first time i heard this song",
     src: "music/22_low_roar.mp3",
     lyrics: `Faintly
