@@ -103,7 +103,7 @@ audio.addEventListener("ended", () => {
 
 function playTrack() {
   audio.play();
-  playBtn.innerText = "⏸";
+  playBtn.innerText = "❚❚";
 playBtn.classList.add("playing");
 }
 
