@@ -985,6 +985,40 @@ But now I'm learning, learning that this will pass`
 
 },
 
+
+ {
+    title:"I'll keep coming" ,
+    artist: "Low Roar",
+    year: "2014",
+    note: "-",
+    src: "music/22_low_roar.mp3",
+    lyrics: `Faintly
+I'll go
+To take this
+Head on
+Soon I'll come around
+Lost and never found
+Waiting for my words
+Seen but never heard
+Buried underground
+But I'll keep coming
+
+Wipe those
+Tears off
+And make your
+Heart proud
+Soon I'll come around
+Lost and never found
+Waiting for my words
+Seen but never heard
+Buried underground
+But I'll keep coming
+
+But I'll keep coming
+But I'll keep coming
+But I'll keep coming`,
+},
+
 {
     title:"A Wolf At The Door" ,
     artist: "Radiohead",
