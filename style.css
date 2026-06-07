@@ -1,6 +1,76 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300;400;500;600&family=IBM+Plex+Sans:wght@400;500;600&display=swap');
 
 
+body {
+  margin: 0;
+  min-height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background: #0b0b10;
+  color: #eaeaea;
+
+  font-family: "IBM Plex Mono", monospace;
+}
+
+.container {
+  max-width: 500px;
+  padding: 30px;
+  text-align: center;
+  text-align: center;
+}
+
+.header {
+  font-size: 1.4rem;
+  margin-bottom: 30px;
+  font-weight: 600;
+}
+
+.message {
+  color: #bdbdbd;
+  line-height: 1.7;
+  margin-bottom: 30px;
+}
+
+.main-link {
+  display: inline-block;
+
+  padding: 12px 24px;
+
+  border: 1px solid #444;
+  border-radius: 6px;
+
+  color: white;
+  text-decoration: none;
+
+  margin-bottom: 30px;
+
+  transition: 0.2s;
+}
+
+.main-link:hover {
+  background: #1a1a2b;
+}
+
+.mirrors {
+  color: #888;
+  font-size: 0.9rem;
+}
+
+.mirrors p {
+  margin-bottom: 10px;
+}
+
+.mirrors a {
+  color: #b0b0b0;
+  text-decoration: none;
+}
+
+.mirrors a:hover {
+  color: white;
+}
 :root {
   --accent: #8a6bff;
   --accent-shadow: rgba(255, 255, 255, 0.04);
@@ -261,6 +331,17 @@ button:hover {
   color: #666;
   letter-spacing: 1px;
 }
+.footer a {
+  color: #bdbdbd;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.footer a:hover {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
 /* HIDDEN */
 .hidden {
   display: none;
