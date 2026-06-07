@@ -63,6 +63,13 @@ body {
   margin-bottom: 10px;
 }
 
+.message p,
+.mirrors p {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .mirrors a {
   color: #b0b0b0;
   text-decoration: none;
@@ -71,6 +78,30 @@ body {
 .mirrors a:hover {
   color: white;
 }
+a,
+a:visited {
+  color: inherit;
+}
+.main-link,
+.main-link:visited {
+  color: white;
+  text-decoration: none;
+}
+
+.mirrors a,
+.mirrors a:visited {
+  color: #b0b0b0;
+  text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
 :root {
   --accent: #8a6bff;
   --accent-shadow: rgba(255, 255, 255, 0.04);
